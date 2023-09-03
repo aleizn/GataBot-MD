@@ -129,7 +129,7 @@ auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, pino({level: 'silent'})),
 },
-browser: ['GataBot-MD','Edge','1.0.0'],
+browser: ['Aleizn','Edge','1.0.0'],
 version,
 defaultQueryTimeoutMs: undefined,
 };

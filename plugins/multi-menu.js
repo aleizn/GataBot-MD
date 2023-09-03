@@ -97,19 +97,21 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 
-⠇ ${lenguajeGB['smsTex2']()} 🧰
-∘ _${usedPrefix}bass_
-∘ _${usedPrefix}blown_
-∘ _${usedPrefix}deep_
-∘ _${usedPrefix}earrape_
-∘ _${usedPrefix}fast_
-∘ _${usedPrefix}fat_
-∘ _${usedPrefix}nightcore_
-∘ _${usedPrefix}reverse_
-∘ _${usedPrefix}robot_
-∘ _${usedPrefix}slow_
-∘ _${usedPrefix}smooth_
-∘ _${usedPrefix}tupai_
+┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+
+┊⠇ ${lenguajeGB['smsTex2']()} 🧰
+┊∘ _${usedPrefix}bass_
+┊ _${usedPrefix}blown_
+┊∘ _${usedPrefix}deep_
+┊∘ _${usedPrefix}earrape_
+┊∘ _${usedPrefix}fast_
+┊∘ _${usedPrefix}fat_
+┊∘ _${usedPrefix}nightcore_
+┊∘ _${usedPrefix}reverse_
+┊∘ _${usedPrefix}robot_
+┊∘ _${usedPrefix}slow_
+┊∘ _${usedPrefix}smooth_
+┊∘ _${usedPrefix}tupai_
 `.trim()
 await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
 
@@ -123,7 +125,7 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
 ┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
 ┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex1']()} 🔍
 ∘ _${usedPrefix}animeinfo *texto*_
 ∘ _${usedPrefix}mangainfo *texto*_
